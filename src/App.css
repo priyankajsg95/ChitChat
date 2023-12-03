@@ -1,0 +1,20 @@
+/* App.css */
+
+.root {
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .chatList {
+    margin-bottom: 20px;
+  }
+  
+  .chatMessage {
+    margin: 10px 0;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+  }
