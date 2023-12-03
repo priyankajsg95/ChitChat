@@ -1,4 +1,4 @@
-// server.js
+
 const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
@@ -14,7 +14,7 @@ const rl = readline.createInterface({
 io.on('connection', (socket) => {
     console.log('New client connected');
   
-    // Send a welcome message to the new client
+   
     socket.emit('message', 'Welcome to the chat!');
   
     socket.on('message', (message) => {
