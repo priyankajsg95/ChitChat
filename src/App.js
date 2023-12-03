@@ -13,7 +13,7 @@ function App() {
   
     socketRef.current.on('message', (message) => {
       setMessages((messages) => {
-         // Log the updated state
+         
         return [...messages, message];
       });
     });
